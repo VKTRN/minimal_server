@@ -5,4 +5,4 @@ app.get("/", (req, res) => {
     res.send("Hello!")
 });
 
-app.listen(80, () => {console.log("Listening on http://localhost:80")})
+app.listen(80,"0.0.0.0", () => {console.log("Listening on http://localhost:80")})
